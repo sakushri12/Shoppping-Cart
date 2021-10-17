@@ -38,7 +38,14 @@ li{
   
   grid-template-columns: 20% 15% 10% 15% 15% 15%;
   
+}
 
+#cartlists1{
+    /* display:flex; */
+    display: grid;
+  
+  grid-template-columns: 20% 15% 10% 15% 15% 15%;
+  
 }
 #quantity{
     border :1px solid blue;
@@ -53,3 +60,18 @@ li{
 #add_item{
     margin-top: 20px;
 }
+/* .itemName{
+    width:200px;
+}
+.itemPrice{
+    width:100px;
+}
+.quantity{
+    width:200px;
+}*/
+
+#remove{
+    width:150px;
+    font-size: 30px;
+    background-color: red;
+} 
